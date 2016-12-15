@@ -17,10 +17,23 @@
     max-width:100%;
     margin:auto;
 }
+#description{
+    margin:auto;
+    padding:15%;
+    background-color:red;
+}
+.container{
+    text-align:center;
+    border:20px;
+    padding:50px;
+}
+.col-lg-8 col-lg-offset-2 text-center{
+    text-align: center;
+    padding:50px;
+}
 p{
-    color:red;
+    color:green;
 }
 h1{
-    color:blue;
-    
+    color:purple;
 }
