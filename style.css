@@ -20,22 +20,53 @@
 #description{
     margin:auto;
     padding:15%;
-    background-color:red;
+    background-color:#E82C0C;
 }
 .container{
     text-align:center;
     border:20px;
-    padding:50px;
+    padding:50px
 }
 .col-lg-8 col-lg-offset-2 text-center{
     text-align: center;
     padding:50px;
 }
+img{
+    width:20%;
+    max-width:70%;
+    border-radius:50%;
+    /*border:5px solid lightblue;*/
+    border:20px;
+    margin-bottom:20px;
+}
+#mask_1{
+    float:right;
+}
+#mask_2{
+    float:left;
+}
 p{
-    color:gree;
+    color:green;
     font-family:sans-serif ;
 }
 h1{
     color:blue;
-    font-family: monospace
+    font-family: monospace;
+    color:white;
+}
+h2{
+    color:gray;
+}
+.info{
+    color:gray;
+}
+.dark{
+    border-color:#E82C0C;
+    border-width:2px;
+    max-width: 50px;
+}
+.light{
+    border-color:white;
+    border-width:2px;
+    max-width:30%;
 }
