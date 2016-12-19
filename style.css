@@ -32,8 +32,10 @@
     padding:50px;
 }
 p{
-    color:green;
+    color:gree;
+    font-family:sans-serif ;
 }
 h1{
     color:blue;
+    font-family: monospace
 }
