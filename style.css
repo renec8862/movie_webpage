@@ -51,8 +51,19 @@ p{
 h1{
     color:white;
 }
+h2{
+    color:gray;
+}
+.info{
+    color:gray;
+}
 .dark{
     border-color:#E82C0C;
     border-width:2px;
     max-width: 50px;
+}
+.light{
+    border-color:white;
+    border-width:2px;
+    max-width:30%;
 }
