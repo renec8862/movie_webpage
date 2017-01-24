@@ -21,6 +21,7 @@
     margin:auto;
     padding:15%;
     background-color:#E82C0C;
+    background:linear-gradient(red to purple);
 }
 .container{
     text-align:center;
@@ -41,9 +42,16 @@ img{
 }
 #mask_1{
     float:right;
+    transform: rotate(90deg)
+    transition: width 5s;
 }
+    
 #mask_2{
     float:left;
+    transform: rotate(90deg)
+    transition: width 5s;
+
+    
 }
 p{
     color:green;
@@ -53,6 +61,7 @@ h1{
     color:blue;
     font-family: monospace;
     color:white;
+    box-shadow:2px,2px blue
 }
 h2{
     color:gray;
@@ -65,8 +74,7 @@ h2{
     border-width:2px;
     max-width: 50px;
 }
-.light{
-    border-color:white;
-    border-width:2px;
-    max-width:40%
+.light
+div:hover{
+    width: 200px
 }
